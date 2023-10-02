@@ -1,0 +1,16 @@
+#python  program to display calendar 
+#given month of the calendar
+#import module
+import calendar
+yy = 2023
+mm = 5
+#display the calender
+print(calendar.month(yy,mm))
+
+
+#output
+#may 2023
+#mo tu we th fr sa su
+#1  2  3  4  5  6  7
+#..................
+#      31
